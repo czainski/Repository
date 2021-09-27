@@ -5,6 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using WebApp.Models;
+using Microsoft.OpenApi.Models;
+
 
 namespace WebApp
 {
@@ -26,23 +28,23 @@ namespace WebApp
             services.Configure<JsonOptions>(opts => {
                 opts.JsonSerializerOptions.IgnoreNullValues = true;
             });
-            services.AddSwaggerGen();
-
+            //    services.AddSwaggerGen();
+            services.AddSwaggerGen(c => {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPI", Version = "v1" });
+            });
         }
 
         public void Configure(IApplicationBuilder app, Context context)
         {
             app.UseSwagger();
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-            });
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPI v1"));
+
             app.UseDeveloperExceptionPage();
             app.UseRouting();
-
+                       
             app.UseEndpoints(endpoints => {
                 endpoints.MapGet("/", async context => {
-                    await context.Response.WriteAsync("Hello! WebApiSwaggerBC!");
+                   await context.Response.WriteAsync("Hello! WebApiSwaggerBC!");
                 });
                 endpoints.MapControllers();
             });

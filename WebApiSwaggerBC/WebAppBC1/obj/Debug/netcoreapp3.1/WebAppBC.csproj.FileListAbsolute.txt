@@ -87,7 +87,6 @@ C:\Users\czain\Desktop\WebApiSwaggerBC\WebAppBC1\bin\Debug\netcoreapp3.1\runtime
 C:\Users\czain\Desktop\WebApiSwaggerBC\WebAppBC1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\czain\Desktop\WebApiSwaggerBC\WebAppBC1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\czain\Desktop\WebApiSwaggerBC\WebAppBC1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
-C:\Users\czain\Desktop\WebApiSwaggerBC\WebAppBC1\obj\Debug\netcoreapp3.1\WebAppBC.csprojAssemblyReference.cache
 C:\Users\czain\Desktop\WebApiSwaggerBC\WebAppBC1\obj\Debug\netcoreapp3.1\WebAppBC.AssemblyInfoInputs.cache
 C:\Users\czain\Desktop\WebApiSwaggerBC\WebAppBC1\obj\Debug\netcoreapp3.1\WebAppBC.AssemblyInfo.cs
 C:\Users\czain\Desktop\WebApiSwaggerBC\WebAppBC1\obj\Debug\netcoreapp3.1\WebAppBC.csproj.CoreCompileInputs.cache
@@ -100,3 +99,5 @@ C:\Users\czain\Desktop\WebApiSwaggerBC\WebAppBC1\obj\Debug\netcoreapp3.1\WebAppB
 C:\Users\czain\Desktop\WebApiSwaggerBC\WebAppBC1\obj\Debug\netcoreapp3.1\WebAppBC.dll
 C:\Users\czain\Desktop\WebApiSwaggerBC\WebAppBC1\obj\Debug\netcoreapp3.1\WebAppBC.pdb
 C:\Users\czain\Desktop\WebApiSwaggerBC\WebAppBC1\obj\Debug\netcoreapp3.1\WebAppBC.genruntimeconfig.cache
+C:\Users\czain\Desktop\WebApiSwaggerBC\WebAppBC1\obj\Debug\netcoreapp3.1\WebAppBC.csproj.AssemblyReference.cache
+C:\Users\czain\Desktop\WebApiSwaggerBC\WebAppBC1\obj\Debug\netcoreapp3.1\WebAppBC.GeneratedMSBuildEditorConfig.editorconfig
